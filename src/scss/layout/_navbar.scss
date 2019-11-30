@@ -1,0 +1,35 @@
+
+
+
+.nav-item>.nav-link{
+    text-transform: capitalize;
+    color: $black!important;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item-header>.nav-link-header {
+    display: inline-block;
+    font-weight: bold;
+    font-size: ($x-size)+12px;
+    letter-spacing: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.number-of-product{
+  border:none;
+  padding:($x-size)-5px;
+  background-color: $blue;
+  color:$black;
+  font-size: ($x-size)-2px;
+  border-radius: 100%;
+  margin-bottom: $x-size;
+  position: relative;
+  bottom: ($x-size*2);
+  right: ($x-size*2);
+}
+
+.logo {
+    width: 110px;
+    height: 65px;
+}

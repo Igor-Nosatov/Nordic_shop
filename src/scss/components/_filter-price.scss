@@ -1,0 +1,127 @@
+.filter-price {
+  width: 220px;
+  border: 0;
+  padding: ($bg-size)-20px 0;
+  margin: auto;
+  background-color:$light-yellow;
+
+}
+.price-field {
+  position: relative;
+  width: 100%;
+  height: ($bg-size)-14px;
+  box-sizing: border-box;
+  background:$light-yellow;
+  padding-top: ($x-size)+5px;
+  padding-left: ($x-size)+6px;
+  border-radius: ($x-size)-4px;
+}
+
+.price-field input[type=range] {
+    position: absolute;
+}
+
+.price-field input[type=range] {
+  width: 188px;
+  height: ($x-size)-8px;;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border-radius: ($x-size)-5px;
+  pointer-events: none;
+  -webkit-appearance: none;
+}
+
+.price-field input[type=range]::-webkit-slider-thumb {
+  /* WebKit/Blink */
+    position: relative;
+    -webkit-appearance: none;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    height:  ($x-size*2);
+    width:  ($x-size*2);
+    margin-top: -8px;
+    background-color: $white;
+    cursor: pointer;
+    pointer-events: all;
+    z-index: 100;
+}
+
+.price-field input[type=range]::-moz-range-thumb {
+  /* Firefox */
+  position: relative;
+  appearance: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height:  ($x-size*2);
+  width:  ($x-size*2);
+  margin-top: -8px;
+  background-color: $white;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+
+}
+
+.price-field input[type=range]::-ms-thumb  {
+  /* IE */
+  position: relative;
+  appearance: none;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: ($x-size*2);
+  width:  ($x-size*2);
+  margin-top: -8px;
+  background-color: $white;
+  cursor: pointer;
+  pointer-events: all;
+  z-index: 100;
+}
+
+/* Style track input range */
+
+.price-field input[type=range]::-webkit-slider-runnable-track {
+  /* WebKit/Blink */
+  width: 188px;
+  height: ($x-size)-8px;
+  cursor: pointer;
+  background: $white;
+  border-radius:  ($x-size)-5px;
+}
+
+.price-field input[type=range]::-moz-range-track {
+  /* Firefox */
+  width: 188px;
+  height: ($x-size)-8px;;
+  cursor: pointer;
+  background: $white;
+  border-radius: ($x-size)-5px;
+}
+
+.price-field input[type=range]::-ms-track {
+  /* IE */
+  width: 188px;
+  height:  ($x-size)-8px;
+  cursor: pointer;
+  background: $white;
+  border-radius: 5px;
+}
+.amount1{
+position: absolute;
+top:($x-size*3);
+font-weight: bold;
+color: $blue;
+}
+.amount2{
+position: absolute;
+left:80%;
+top:($x-size*3);
+font-weight: bold;
+color: $blue;
+}

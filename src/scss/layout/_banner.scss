@@ -1,0 +1,98 @@
+.banner {
+  margin-bottom: $x-size;
+}
+.banner__part-one {
+  background-repeat: no-repeat;
+}
+.banner__part-two {
+  background-color: $white !important;
+  border-bottom: 1px solid $light-grey;
+  border-top: 1px solid $light-grey;
+}
+.slide-overlay {
+  position: absolute;
+  z-index: 998;
+  bottom: ($bg-size);
+  left: ($bg-size*2);
+  background-color: $light-blue;
+  opacity: 0.9;
+  border-radius: ($bg-size)-25px;
+  padding: ($bg-size)-25px;
+
+  &:hover {
+    opacity: 0.8;
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 4s;
+    -webkit-transition-timing-function: linear;
+    transition-property: width;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+  }
+}
+@media screen and (max-width: 960px) {
+  .slide-overlay {
+    position: absolute;
+    z-index: 998;
+    bottom: ($bg-size*2);
+    left: ($bg-size);
+    background-color: $light-blue;
+    opacity: 0.9;
+    border-radius: ($bg-size)-25px;
+    padding: ($bg-size)-25px;
+
+    &:hover {
+      opacity: 0.8;
+      -webkit-transition-property: width;
+      -webkit-transition-duration: 4s;
+      -webkit-transition-timing-function: linear;
+      transition-property: width;
+      transition-duration: 4s;
+      transition-timing-function: linear;
+    }
+  }
+}
+.banner__header {
+  font-weight: bold;
+  font-size: $bg-size;
+  color: $black;
+  margin-left: ($bg-size*5);
+  text-transform: uppercase;
+  margin-top: $x-size;
+  margin-bottom: $x-size;
+}
+.banner__sub-header {
+  font-weight: bold;
+  font-size: ($bg-size)-25px;
+  color: $dark-grey;
+  margin-left: ($bg-size*5);
+  margin-top: ($bg-size*4);
+  text-transform: capitalize;
+}
+.banner__text {
+  margin-left: ($bg-size*5);
+  color: $black;
+  text-align: justify;
+}
+@media screen and (max-width: 960px) {
+  .banner__header {
+    font-weight: bold;
+    font-size: ($bg-size/4)+5px;
+    color: $black;
+    margin-left: ($bg-size*0);
+    text-transform: uppercase;
+    margin: ($x-size)-5px;
+  }
+
+  .banner__sub-header {
+display: none;
+  }
+  .banner__text {
+    margin-left: ($bg-size*0);
+    color: $black;
+    text-align: justify;
+    margin: ($x-size)-5px;
+  }
+}
+
+
+/*  category banner */

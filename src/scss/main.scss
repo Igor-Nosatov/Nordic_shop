@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+  @import
+    'components/button',
+    'components/feed',
+    'components/image',
+    'components/price-range',
+    'components/icon',
+    'components/form',
+    'components/pagination',
+    'components/tag',
+    'components/table',
+    'components/filter-price',
+    'components/radio-button',
+    'components/carousel';
+
+@import
+  'layout/aside',
+  'layout/banner',
+  'layout/breadcrumb',
+  'layout/footer',
+  'layout/header',
+  'layout/main',
+  'layout/navbar',
+  'layout/sidebar';
+
+@import
+  'pages/blog',
+  'pages/cart',
+  'pages/home',
+  'pages/log_and_sign',
+  'pages/shop',
+  'pages/product',
+  'pages/checkout';
+
+@import
+  '~bootstrap/scss/bootstrap',
+  'themes/_theme.scss';
+
+   @import
+   'vendors/animate'

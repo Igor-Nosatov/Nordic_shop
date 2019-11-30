@@ -1,0 +1,41 @@
+
+ .subscribe-area{
+   background-color: $light-blue !important;
+ }
+
+ .subscribe-area__header{
+     margin-top:($bg-size)-10px;
+     margin-bottom:($bg-size/3);
+ }
+
+
+
+ .footer-header{
+   text-align: left;
+   margin-top: ($x-size);
+   font-size: ($x-size)+ 8px;
+   text-transform: uppercase;
+   font-weight: bold;
+   color:$white;
+ }
+
+ .footer-image{
+   width: 90%;
+   height: 200px;
+ }
+
+.footer{
+  background-color: $dark-blue;
+  min-height: 300px;
+  padding-top: ($bg-size);
+  padding-bottom: ($bg-size);
+}
+
+@media screen and (max-width: 960px) {
+  .footer{
+    background-color: $dark-blue;
+    min-height: 300px;
+    padding-top: ($bg-size);
+    padding-bottom: ($bg-size);
+  }
+}

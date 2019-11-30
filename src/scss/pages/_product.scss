@@ -1,0 +1,33 @@
+.product-area{
+margin-top: ($bg-size*2);
+margin-bottom: ($bg-size*4);
+}
+.product-description-area{
+  margin-bottom: ($bg-size*2);
+}
+.product-data,
+  .cart-form{
+  margin-left:($x-size*4);
+
+}
+.product-data__header{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:$black;
+  font-size: ($x-size*2);
+  margin: $x-size 0px;
+}
+.product-data__price{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:$dark-blue;
+  font-size: ($x-size*1.8);
+  margin: $x-size 0px;
+}
+.product-data__text{
+  text-transform: capitalize;
+  font-weight: bold;
+  color:$dark-grey;
+  font-size: ($x-size*1.5);
+  margin: $x-size 0px;
+}

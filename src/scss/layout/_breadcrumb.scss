@@ -1,0 +1,18 @@
+.breadcrumbs{
+  background-color: $cyan;
+}
+.breadcrumbs__header{
+  color: $black;
+  margin-top: $bg-size;
+  margin-bottom: $x-size;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.breadcrumbs__text {
+  color: $light-grey;
+  margin-top: $x-size;
+  margin-bottom: $bg-size;
+  text-align: center;
+  padding-bottom: $bg-size 0px;
+}

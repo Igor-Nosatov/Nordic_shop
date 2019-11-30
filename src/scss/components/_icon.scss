@@ -1,0 +1,50 @@
+.fas,
+.far,
+.fab{
+  padding-right: $x-size;
+}
+.fa-calendar-week,
+.fa-eye,
+.fa-comment{
+  margin-left: ($x-size)-2px;
+  margin-right:  ($x-size)-2px;
+}
+.fa-calendar-week{
+color:$light-grey;
+}
+.fa-eye{
+  color:$light-blue;
+}
+.fa-star{
+  color:$yellow;
+}
+.fa-comment{
+  color:$orange;
+}
+.shop-icon{
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 960px) {
+  .shop-icon{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+}
+
+.aside-social-link{
+  margin-left: 23%;
+}
+ .footer-icon{
+   padding: ($x-size)+2px;
+   background-color: $white;
+   border-radius: 100%;
+   margin: ($x-size)-4px;
+ }
+.fa-info{
+ padding:5px;
+ border-radius: 100%;
+ background-color: $dark-grey;
+ color:$dark-white;
+}

@@ -1,0 +1,14 @@
+
+.returning_customer,
+.cupon_area,
+.billing_details {
+margin-top: $bg-size;
+margin-bottom: $bg-size;
+border:1px solid $light-grey;
+padding: $bg-size;
+}
+
+.order_box{
+  background-color: $light-grey;
+  padding: $x-size;
+}

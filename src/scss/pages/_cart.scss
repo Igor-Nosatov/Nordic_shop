@@ -1,0 +1,40 @@
+
+.card__sub-header {
+  color: $light-grey;
+}
+
+.card__header {
+  font-weight: bold;
+  font-size: ($bg-size/2);
+  color: $black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.card__text {
+  color: $dark-grey;
+  text-align:left;
+  font-weight: bold;
+  font-size: ($x-size)+4px;
+}
+
+
+
+
+.cart-area__header {
+  font-weight: bold;
+  font-size: ($x-size*2);
+  color: $black;
+}
+
+.cart-summary__header {
+  padding-left: ($x-size*2);
+  padding-top: ($x-size*2);
+  font-weight: bold;
+  font-size: ($x-size*2);
+  color: $black;
+}
+
+.summary-table > li > a {
+  color: $light-grey;
+}

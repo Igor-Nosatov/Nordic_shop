@@ -1,0 +1,72 @@
+.sign_up-area,
+.sign_in-area{
+margin-top: $bg-size;
+margin-bottom:  $bg-size;
+}
+
+
+.login-box,
+.register-box{
+  border-left:1px solid $light-grey;
+  border-top: 1px solid $light-grey;
+  border-bottom: 1px solid $light-grey;
+  padding-top: ($bg-size*2);
+  padding-bottom: ($bg-size*5);
+  padding-left: $bg-size;
+  background: $violet;
+
+}
+
+.login-form{
+  border-right:1px solid $light-grey;
+  border-top: 1px solid $light-grey;
+  border-bottom: 1px solid $light-grey;
+  padding: ($bg-size)!important;
+  padding-top: 10px !important;
+}
+
+.register-box__header,
+  .login-box__header{
+  color:$light-grey;
+  font-weight: bold;
+  padding-top: ($x-size*6);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.register-box__text,
+.login-box__text {
+  color:$light-grey;
+  padding-top: ($x-size*2);
+  font-weight: bold;
+}
+
+.register-box__button,
+.login-box__button {
+  @include button($white, 0, $blue, $dark-grey);
+  margin-top: ($x-size*2);
+  margin-bottom: $x-size;
+  padding:($bg-size)-30px;
+  &:hover {
+    color: $white;
+  }
+  height:40px;
+}
+
+.form__header{
+  padding-top: ($x-size*8);
+  margin-left: ($bg-size)+15px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.register-box__button1,
+.login-box__button1 {
+  @include button($white, 0, $blue, $dark-grey);
+  margin-top: ($x-size*2);
+  margin-bottom: $x-size;
+  &:hover {
+    color: $white;
+  }
+  height:40px;
+}

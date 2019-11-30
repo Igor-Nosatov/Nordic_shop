@@ -1,0 +1,32 @@
+.register-area,
+.login-area,
+.checkout-area__header,
+.cart-area__header,
+.sort{
+margin-top: ($bg-size*3);
+}
+.product-data{
+  margin-left: $bg-size;
+}
+
+.trending-products{
+  margin-top: ($bg-size);
+}
+.blue-line{
+  padding-bottom: ($x-size)-5px;
+  border-bottom: 2px solid $blue;
+}
+.shop-offer{
+  background: url("../img/offer.jpeg") right center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: ($bg-size*8);
+  width:100%;
+}
+.border{
+  border:1px solid $light-grey;
+  margin: $x-size;
+  padding: $x-size;
+}

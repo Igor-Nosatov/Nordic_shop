@@ -1,0 +1,194 @@
+.button-header {
+  @include button($black, ($bg-size)-25px, $light-blue, $dark-blue);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: ($x-size)+8px;
+  letter-spacing: 2px;
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    border: 1px solid $light-grey !important;
+    color:$white;
+  }
+}
+@media screen and (max-width: 960px) {
+  .button-header {
+    display: none;
+  }
+
+  .banner__button {
+    @include button($white, ($bg-size)-25px, $blue, $white);
+    font-weight: bold;
+    border: 1px solid $blue !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+
+    &:hover {
+      -webkit-transition: width 2s;
+      transition: width 2s;
+      border: 1px solid $blue !important;
+      color: $black;
+    }
+  }
+}
+
+.banner__button {
+  @include button($white, ($bg-size)-25px, $blue, $white);
+  font-weight: bold;
+  border: 1px solid $blue !important;
+  margin-bottom: ($bg-size*6);
+  margin-left: ($bg-size*5);
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    border: 1px solid $blue !important;
+    color: $black;
+  }
+}
+
+.shop-offer__button {
+  @include button($white, ($bg-size)-25px, $blue, $white);
+  font-weight: bold;
+  border: 1px solid $blue !important;
+  margin-bottom: ($bg-size*6);
+  margin-left: 28%;
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    border: 1px solid $blue !important;
+    color: $black;
+  }
+}
+
+.subscribe-area__button {
+  @include button($white, 0px, $blue, $dark-blue);
+  font-weight: bold;
+  border: none;
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    border: none;
+    color: $black;
+  }
+}
+@media screen and (max-width: 960px) {
+  .subscribe-area__button {
+    @include button($white, 0px, $blue, $dark-blue);
+    font-weight: bold;
+    border: none;
+    margin-left: 0px;
+
+    &:hover {
+      -webkit-transition: width 2s;
+      transition: width 2s;
+      border: none;
+      color: $black;
+    }
+  }
+}
+
+.blog__button {
+  @include button($white, 0px, $blue, $blue);
+  font-weight: bold;
+  border: none;
+  height: ($bg-size)-10px !important;
+  -webkit-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+  box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    color: $black;
+    -webkit-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+    box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+  }
+}
+
+.form-button {
+  min-height: ($x-size*4);
+  color: $blue;
+  border: none;
+  padding: 0 7px;
+  font-size: ($x-size)+2px;
+  font-weight: 700;
+}
+
+.filter-button {
+  @include button($white, 0px, $blue, $blue);
+  min-height: 39px;
+  padding-bottom: 7px;
+  margin-left: ($x-size)-5px;
+  margin-top: $x-size;
+  margin-right: ($x-size)-5px;
+  padding-top: 10px;
+padding-left: 15px;
+}
+
+.subscribe-form-button {
+  @extend .form-button;
+}
+
+.comment-button {
+  @include button($white, 0px, $blue, $blue);
+}
+
+.cart-button,
+.wishlist-button {
+  @include button($white, 0px, $blue, $blue);
+  -webkit-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+  -moz-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+  box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.51);
+  text-align: center;
+
+  &:hover {
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    color: $white;
+    -webkit-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+    -moz-box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+    box-shadow: 10px 11px 5px -1px rgba(0,0,0,0.77);
+  }
+}
+
+.remind-button {
+  @include button($white, 0px, $blue, $blue);
+}
+
+.checkout-coupon-button {
+  @include button($white, 0px, $blue, $blue);
+}
+
+.checkout-button,
+.checkout-button,
+.select-button {
+  @include button($white, 0px, $blue, $blue);
+  color: $white;
+  margin-top: $x-size;
+  margin-bottom: $x-size;
+}
+
+.contact-button {
+  @include button($white, 0px, $blue, $blue);
+  margin-bottom: $x-size;
+}
+
+.shop-button {
+  @extend.contact-button;
+  text-transform: capitalize;
+  margin-left: 17.2%;
+}
+
+.button-cart {
+  @extend.contact-button;
+  text-transform: capitalize;
+}
+
+.subscribe-button {
+  @extend.contact-button;
+}

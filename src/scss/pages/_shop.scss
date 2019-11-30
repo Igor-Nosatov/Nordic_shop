@@ -1,0 +1,63 @@
+.shop-offer__header {
+  font-weight: bold;
+  font-size: ($bg-size);
+  color: $black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: ($bg-size)+4px;
+}
+
+.shop-offer__sub-header {
+  text-transform: capitalize;
+  text-align: center;
+  color: $black;
+  font-size: ($bg-size/3);
+  margin-top: ($bg-size/3);
+  margin-bottom: ($bg-size/3);
+}
+
+.brands,
+.categories,
+.color,
+.price {
+  background-color: $light-yellow;
+  padding: $x-size 0;
+  margin: $x-size 0;
+  text-align: left;
+}
+
+.shop-area__aside-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $blue;
+  width: 100%;
+  padding: $x-size 0 $x-size $x-size;
+}
+
+.name-list {
+  padding-left: $x-size;
+}
+
+.subscribe_area {
+  margin: $bg-size 0;
+  border: 1px solid $light-grey;
+  padding: ($bg-size);
+}
+
+.form-inline-sub {
+  padding-top: $x-size;
+  padding-bottom: $x-size;
+  padding-right: ($bg-size*3);
+  padding-left: ($bg-size*3);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.filter-bar{
+  margin-top: $x-size;
+  padding-bottom: $x-size;
+  background-color: $light-yellow;
+}

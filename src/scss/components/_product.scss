@@ -1,0 +1,87 @@
+
+.slide-overlay__header {
+  font-weight: bold;
+  font-size: ($bg-size)-25px;
+  color: $black;
+  text-decoration: none!important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.slide-overlay__text {
+  font-size: ($bg-size)-35px;
+  color: $black;
+  text-decoration: none!important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.trending-products__sub-header {
+  text-transform: capitalize;
+  color: $light-grey;
+}
+
+.trending-products__header,{
+  text-transform: uppercase;
+  color: $black;
+  font-weight: bold;
+}
+
+
+.best-sellers__header{
+  margin-top:$bg-size;
+  text-transform: uppercase;
+  color: $black;
+  font-weight: bold;
+}
+
+
+
+.product-category__price {
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 0;
+  color: $gray;
+}
+
+.product-category__name {
+  font-weight: bold;
+  color: $black;
+}
+
+.discount-text {
+  color: $orange;
+  font-weight: bold;
+}
+
+
+.categories-header {
+  color: $black;
+  padding-top: ($x-size*2);
+  font-weight: bold;
+  text-align: left;
+  padding-left: ($x-size)-5px;
+}
+
+
+
+.product-data__price {
+  color: $orange;
+  font-size: ($x-size*2);
+  margin-top: ($x-size*2);
+}
+
+.product-data__header {
+  font-weight: bold;
+  font-size: ($x-size*4);
+  color: $black;
+}
+
+.product-data__text {
+  font-size: ($x-size*2);
+  color: $light-grey;
+}

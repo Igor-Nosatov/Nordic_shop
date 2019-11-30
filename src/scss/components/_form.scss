@@ -1,0 +1,77 @@
+.form-control {
+    border-radius: 0rem !important;
+    height: 55px !important;
+    background-color: $white;
+    width:80% !important;
+    border:1px solid $black;
+  }
+  .form-group{
+    padding:($x-size)-5px;
+  }
+.check_title-form-control{
+  border-radius: 0rem !important;
+  border:1px solid $light-grey;
+  height: 59px !important;
+  background-color: $white;
+  width:50% !important;
+}
+.form-inline{
+  padding-top: ($bg-size)+15px !important;
+  padding-bottom:  ($bg-size)+15px !important;
+}
+
+.cart-form{
+  margin-left: $bg-size;
+}
+.cart-form-control{
+  border-radius: 0rem !important;
+  height: 40px !important;
+  background-color: $white;
+  width:50% !important;
+  border:1px solid $light-grey;
+  margin-top: $x-size;
+  margin-bottom:  $x-size;
+}
+.zip-form-control{
+  border-radius: 0rem !important;
+  height: 40px !important;
+  background-color: $white;
+  width:90% !important;
+  border:1px solid $light-grey;
+  margin-top: $x-size;
+  margin-bottom:  $x-size;
+}
+.form-search-post{
+  margin-top: ($bg-size)-15px !important;
+}
+ .newsletter{
+  height: 55px !important;
+  background-color: $white;
+  width:40% !important;
+  border:1px solid $black;
+}
+.custom-control-label {
+   margin-left:($bg-size)-15px !important;
+}
+.paypal {
+
+    margin-bottom: ($bg-size*2)!important;
+}
+
+.comment-textarea{
+  min-height: 160px;
+}
+
+.qty{
+  width:50%;
+  margin-left: 30%;
+}
+.filter-bar-search{
+  margin-top: $x-size!important;
+  margin-right: $x-size!important;
+  margin-left: ($x-size)-5px!important;
+}
+.notes-textarea {
+  height:($bg-size*2.7)!important;
+  width:98%!important;
+}

@@ -1,0 +1,119 @@
+/* =================== category banner======================== */
+.blog-area{
+  margin-top:  ($bg-size*2);
+  margin-bottom: ($bg-size*2);
+}
+
+.category-posts {
+  padding-top: $bg-size;
+  padding-bottom: $bg-size;
+  margin-top: $bg-size;
+}
+.category-post {
+  width:90%;
+  height:  ($bg-size*6);
+  margin-top: $bg-size;
+}
+
+.category-details {
+  position: absolute;
+  z-index: 991;
+  bottom: ($bg-size);
+  left: ($bg-size);
+  background-color: $light-grey;
+  opacity: 0.8;
+  padding: ($bg-size)-25px;
+}
+@media screen and (max-width: 960px) {
+  .category-posts{
+    padding-top: $x-size;
+    padding-bottom: $x-size;
+  }
+  .category-details {
+    position: absolute;
+    bottom: ($bg-size);
+    left: ($bg-size);
+    background-color: $light-grey;
+    opacity: 0.8;
+    padding: ($bg-size)-25px;
+  }
+}
+/*======================Blog Area=============================*/
+.blog-post {
+  padding-right: ($bg-size);
+  margin-top: ($bg-size);
+  margin-bottom: ($bg-size);
+}
+
+.post-tag {
+  font-size: ($x-size)+2px;
+  border: 1px solid $black;
+  padding: 2px;
+  margin: 2px;
+}
+$colors-list: #CA16E6 #16C4E6 #16E663 #D8E616 #E67E16;
+@each $current-color in $colors-list {
+  $i: index($colors-list, $current-color);
+
+  .tag-#{$i} {
+    background-color: $current-color;
+  }
+}
+
+.blog-details__header {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $black;
+  font-size: ($x-size)+8px;
+  text-align: left;
+  padding-top: ($x-size)-5px;
+  padding-bottom: ($x-size)-5px;
+}
+
+.blog-details__text {
+  text-align: justify;
+  color: $black;
+  font-size: ($x-size)+4px;
+}
+
+.aside-area {
+  border: 1px solid $light-grey;
+}
+
+.img-author {
+  margin-left: 22%;
+  height:($bg-size*4);
+}
+
+.blog-area__aside-header {
+  width: 100%;
+  background-color: $blue;
+  color: $white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-top: ($bg-size)-30px;
+  padding-bottom:  ($bg-size)-30px;
+  margin-top:($x-size*2);
+  margin-bottom: ($x-size*2);
+}
+
+.post-categories__link{
+  border-bottom: 0.5px dotted $light-grey;
+  padding-left: ($x-size);
+  padding-right:($x-size);
+}
+.border-bottom {
+  border-bottom: 1px solid $light-grey;
+  width:80%;
+  margin:auto;
+}
+.article,
+.comments,
+.comment-form{
+  border: 1px solid $light-grey;
+}
+
+.aside-image{
+  height: 100px;
+}

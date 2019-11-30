@@ -1,0 +1,31 @@
+.carousel-indicators {
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  margin-left: 0px !important;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 1 !important;
+}
+.image-caption1 {
+  background-size: cover;
+  width: 100% !important;
+  height: 400px !important;
+}
+
+.image-caption {
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+  top: 190px;
+  width: 100% !important;
+  height: 150px !important;
+}
